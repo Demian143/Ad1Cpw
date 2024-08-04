@@ -1,0 +1,32 @@
+body {
+  background-color: #ddcc55;
+  color: #000000;
+  font-size: 16px;
+  font: "stoke", "Lucida Bright", "liberation";
+}
+
+header {
+  display: block;
+  margin-bottom: 1px;
+}
+
+nav {
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+address {
+  float: right;
+  padding-right: 4vh;
+}
+
+section {
+  display: block;
+  width: 70%;
+  float: right;
+}
+
+.headerLogo {
+  border-bottom: 0.6vh solid #000000;
+}
