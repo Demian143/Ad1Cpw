@@ -1,32 +1,87 @@
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   background-color: #ddcc55;
   color: #000000;
   font-size: 16px;
-  font: "stoke", "Lucida Bright", "liberation";
+  font-family: "stoke", "Lucida Bright", "liberation";
+}
+
+ol,
+ul {
+  line-height: 200%;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:visited {
+  color: #222222;
 }
 
 header {
-  display: block;
+  width: 100%;
+  display: inline-block;
   margin-bottom: 1px;
 }
 
 nav {
   display: block;
-  width: 20%;
+  width: 30%;
   float: left;
+  font-family: "stoke", "Lucida Bright", "liberation";
 }
 
-address {
-  float: right;
-  padding-right: 4vh;
+nav ul {
+  font-size: 1.8vw;
+  color: #000000;
+  line-height: 230%;
+  margin-top: 40px;
+  list-style-type: square;
 }
 
 section {
   display: block;
   width: 70%;
+  height: 90%;
   float: right;
 }
 
-.headerLogo {
-  border-bottom: 0.6vh solid #000000;
+address {
+  float: right;
+  padding-right: 4vh;
+  font-family: "stoke", "Lucida Bright", "liberation";
+}
+
+.ender {
+  float: right;
+  text-align: right;
+  line-height: 140%;
+  font-size: 14px;
+  font-family: "Karla", "Verdana", "Ubuntu";
+}
+
+.imgLogo {
+  float: left;
+  padding-bottom: 15px;
+  margin-bottom: 6px;
+  border-bottom: 3px solid #222222;
+}
+
+.apres {
+  text-align: center;
+  font-size: 16px;
+}
+
+#apresImg {
+  width: 35%;
+}
+
+#frase {
+  font-size: 25px;
 }
