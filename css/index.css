@@ -92,8 +92,11 @@ ol {
 }
 
 .listaPlano {
+  border: 3px solid #202020;
   text-align: left;
   margin: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
   width: 300px;
   color: #202020;
   padding: 10px 10px 10px 30px;
