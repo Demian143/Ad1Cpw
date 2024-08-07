@@ -1,6 +1,6 @@
 html,
 body {
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
@@ -47,7 +47,7 @@ nav ul {
 
 section {
   display: block;
-  width: 70%;
+  width: 60%;
   height: 90%;
   float: right;
 }
@@ -56,6 +56,15 @@ address {
   float: right;
   padding-right: 4vh;
   font-family: "stoke", "Lucida Bright", "liberation";
+}
+
+h4 {
+  font-size: 14px;
+}
+
+ol {
+  color: #202020;
+  list-style: lower-alpha;
 }
 
 .ender {
@@ -78,6 +87,23 @@ address {
   font-size: 16px;
 }
 
+.titulo {
+  text-align: center;
+}
+
+.listaPlano {
+  text-align: left;
+  margin: auto;
+  width: 300px;
+  color: #202020;
+  padding: 10px 10px 10px 30px;
+  font-size: 12px;
+  background-color: #eeeebb;
+}
+
+.preco {
+  color: #cc0000;
+}
 #apresImg {
   width: 35%;
 }
