@@ -67,6 +67,23 @@ ol {
   list-style: lower-alpha;
 }
 
+th {
+  border: 1px solid;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #eeeebb;
+}
+
+table img {
+  width: 100px;
+  height: 100px;
+}
+
 .ender {
   float: right;
   text-align: right;
@@ -107,6 +124,30 @@ ol {
 .preco {
   color: #cc0000;
 }
+
+.tabEquip {
+  border: 1px solid;
+  border-collapse: separate;
+  width: 510px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.tabTitulo {
+  background-color: #402020;
+  color: #ffffff;
+}
+
+.tabSubTit {
+  background-color: #802020;
+  color: #ffffff;
+}
+
+.imgCel {
+  width: 100px;
+  background-color: #ffffff;
+}
+
 #apresImg {
   width: 35%;
 }
