@@ -37,16 +37,23 @@
         <fieldset class="fsPessoal">
           <legend>Dados Pessoais</legend>
           <div class="linhaNome">
-            <label for="nome">Nome: </label>
+            <label class="labelDados" for="nome">Nome: </label>
             <input id="inpNome" type="text" name="nome" />
           </div>
           <div id="dadosPes">
-            <label for="telefone">Telefone: </label>
+            <label class="labelDados" for="telefone">Telefone: </label>
             <input type="text" class="inpTelef" name="telefone" /><br /><br />
-            <label for="celular">Celular:</label>
+            <label class="labelDados" for="celular">Celular:</label>
             <input type="text" class="inpTelef" name="celular" /><br /><br />
-            <label for="idade">Idade:</label>
-            <input type="number" class="numDD" name="idade" min="1" max="99" />
+            <label class="labelDados" for="idade">Idade:</label>
+            <input
+              type="number"
+              id="inpIdade"
+              class="numDD"
+              name="idade"
+              min="1"
+              max="99"
+            />
           </div>
           <fieldset class="fsGenero">
             <legend>Genero</legend>
@@ -77,7 +84,7 @@
           </div>
           <div class="ColDirMat">
             <label for="numero">Número:</label>
-            <input type="text" id="inpMat" name="numero" /><br /><br />
+            <input type="text" class="numQD" name="numero" /><br /><br />
             <label for="plano">Plano</label>
             <select name="plano" id="plano">
               <option value="">------</option>
@@ -108,9 +115,11 @@
             <label for="numeroCC">Numero:</label>
             <input type="number" id="inpNCC" name="numeroCC" />
           </fieldset>
-          <button>Matrícula+Plano</button>
-          <label for="valor">Valor: R$</label>
-          <input type="number" id="inpVal" name="valor" />
+          <button class="btnMatPlan">Matrícula+Plano</button>
+          <div class="btnRight">
+            <label for="valor">Valor: R$</label>
+            <input type="number" id="inpVal" name="valor" />
+          </div>
         </fieldset>
         <div class="entDireita">
           <button>Enviar</button>

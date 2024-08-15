@@ -192,6 +192,7 @@ table img {
 }
 
 .ColDirMat {
+  text-align: end;
   float: right;
 }
 
@@ -221,25 +222,46 @@ table img {
 
 .inpTelef {
   width: 90px;
+  float: right;
 }
 
 .numQD {
-  width: 50px;
+  width: 60px;
 }
 
 .numDD {
   width: 35px;
 }
 
-#dadosPes {
-  width: 50%;
+.btnRight {
+  margin-top: 6px;
+  float: right;
+}
+
+.btnMatPlan {
+  margin-top: 6px;
+}
+
+.labelDados {
   float: left;
 }
+
+#inpIdade {
+  margin-left: 20px;
+}
+
+#dadosPes {
+  width: 44%;
+  float: left;
+}
+
 #inpNome {
   width: 220px;
+  margin-left: 19px;
 }
 
 #inpNCC {
+  margin-top: 2px;
   width: 130px;
 }
 
