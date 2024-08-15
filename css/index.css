@@ -148,6 +148,109 @@ table img {
   background-color: #ffffff;
 }
 
+.formul {
+  text-align: left;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #202020;
+  background-color: #eeeebb;
+  border: 3px solid #202020;
+  font-size: 12px;
+}
+
+.fsPessoal {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fsGenero {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.fsCartao {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linhaNome {
+  height: 30px;
+  width: 340px;
+  padding-top: 8px;
+}
+
+.linhaDados {
+  height: 130px;
+  width: 340px;
+}
+
+.ColDirMat {
+  float: right;
+}
+
+.ColEsqPes {
+  float: left;
+}
+
+.ColLavCrd {
+  width: 270px;
+  height: 30px;
+  text-align: left;
+  float: left;
+}
+
+.ColValTot {
+  width: 220px;
+  text-align: left;
+  float: left;
+  display: block;
+}
+
+.entDireita {
+  margin-right: 20px;
+  margin-top: 12px;
+  float: right;
+}
+
+.inpTelef {
+  width: 90px;
+}
+
+.numQD {
+  width: 50px;
+}
+
+.numDD {
+  width: 35px;
+}
+
+#dadosPes {
+  width: 50%;
+  float: left;
+}
+#inpNome {
+  width: 220px;
+}
+
+#inpNCC {
+  width: 130px;
+}
+
+#inpMat {
+  width: 70px;
+}
+
+#inpVal {
+  width: 50px;
+}
+
 #apresImg {
   width: 35%;
 }
