@@ -10,6 +10,14 @@ body {
   font-family: "stoke", "Lucida Bright", "liberation";
 }
 
+footer {
+  text-align: end;
+}
+
+footer p {
+  margin-right: 10vw;
+}
+
 ol,
 ul {
   line-height: 200%;
@@ -48,7 +56,6 @@ nav ul {
 section {
   display: block;
   width: 60%;
-  height: 90%;
   float: right;
 }
 
@@ -244,6 +251,11 @@ table img {
 
 .labelDados {
   float: left;
+}
+
+.indexDiv {
+  width: 100%;
+  display: inline-block;
 }
 
 #inpIdade {
