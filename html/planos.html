@@ -35,27 +35,35 @@
       <h1 class="titulo">Planos (<span class="preco">valor mensal</span>)</h1>
       <div class="listaPlano">
         <ul>
-          <li>Academia:</li>
-          <ol>
-            <li>Anual (R$ <span class="preco">180,00</span>)</li>
-            <li>Semestral (R$ <span class="preco">220,00</span>)</li>
-            <li>Mensal (R$ <span class="preco">260,00</span>)</li>
-          </ol>
-          <li>Natação (3x semana):</li>
-          <ol>
-            <li>Anual (R$ <span class="preco">180,00</span>)</li>
-            <li>Semestral (R$ <span class="preco">220,00</span>)</li>
-            <li>Mensal (R$ <span class="preco">260,00</span>)</li>
-          </ol>
-          <li>Combo (academia + natação):</li>
-          <ol>
-            <li>Anual (R$ <span class="preco">180,00</span>)</li>
-            <li>Semestral (R$ <span class="preco">220,00</span>)</li>
-            <li>Mensal (R$ <span class="preco">260,00</span>)</li>
-          </ol>
+          <li><a href="javascript: detailWindow('academia')">Academia:</a></li>
+          <li>
+            <a href="javascript: detailWindow('natação')"
+              >Natação (3x semana):</a
+            >
+          </li>
+          <li>
+            <a href="javascript: detailWindow('combo')"
+              >Combo (academia + natação):</a
+            >
+          </li>
         </ul>
       </div>
       <h4>Matrícula Obrigatoria: R$ <span class="preco">80,00</span></h4>
     </section>
+    <script lang="javascript">
+      function detailWindow(option){
+        switch (option){
+          case ("academia"):
+             open("../html/academia.html", "academia", "resizable: yes, width=400, height=500")
+             break
+          case ("natação"):
+             open("../html/natacao.html", "natacao", "resizable: yes, width=400, height=500")
+             break
+          case ("combo"):
+             open("../html/combo.html", "combo", "resizable: yes, width=400, height=500")
+             break
+        }
+      }
+    </script>
   </body>
 </html>

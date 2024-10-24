@@ -71,7 +71,7 @@ h4 {
 
 ol {
   color: #202020;
-  list-style: lower-alpha;
+  text-align: left;
 }
 
 th {
@@ -89,6 +89,11 @@ td {
 table img {
   width: 100px;
   height: 100px;
+}
+
+th img {
+  height: 130px;
+  width: 130px;
 }
 
 .ender {
@@ -128,6 +133,13 @@ table img {
   background-color: #eeeebb;
 }
 
+.plano-window {
+  text-align: center;
+  width: 200px;
+  height: 400px;
+  margin: auto;
+}
+
 .preco {
   color: #cc0000;
 }
@@ -151,8 +163,28 @@ table img {
 }
 
 .imgCel {
-  width: 100px;
+  width: 130px;
   background-color: #ffffff;
+}
+
+.imgCel img {
+  width: 130px;
+  height: 130px;
+}
+
+.equip-links:link,
+.equip-links:visited {
+  color: #ffffff;
+}
+
+.equip-links:hover {
+  color: #ffee88;
+}
+
+.DescExe {
+  text-align: justify;
+  height: 230px;
+  width: 250px;
 }
 
 .formul {
